@@ -7,20 +7,20 @@
 #include <string>
 
 using namespace std;
-    
+
 Printable::Printable(string Name)
 {
-    this->Name = Name;
+  this->Name = Name;
 }
 
 Printable::Printable()
 {
-    Name = "Unknown";   
+  Name = "Unknown";
 }
 
 void Printable::print()
 {
-    cout << Name << " " << toString() << endl;
+  cout << Name << " " << toString() << endl;
 }
 
 #endif
